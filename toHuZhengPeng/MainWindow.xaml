@@ -1,0 +1,13 @@
+﻿<Window x:Class="toHuZhengPeng.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:toHuZhengPeng"
+        mc:Ignorable="d"
+        Title="胡振鹏小程序" Width="800" Height="600" Icon="/image.jpg">
+    <Grid>
+        <Image x:Name="hzpImage" Source="/hzp_image.jpg" Panel.ZIndex="1" Visibility="Collapsed"/>
+        <Button x:Name="MainButton" Content="点击显示胡振鹏最喜欢的图片" Margin="250,212,250,212" Click="MainButton_Click"/>
+    </Grid>
+</Window>
